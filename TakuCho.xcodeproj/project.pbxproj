@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D2EAED2C3BBFA8000D1F7B /* TakuChoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EAEC2C3BBFA8000D1F7B /* TakuChoApp.swift */; };
+		18D2EAEF2C3BBFA8000D1F7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EAEE2C3BBFA8000D1F7B /* ContentView.swift */; };
+		18D2EAF12C3BBFAA000D1F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2EAF02C3BBFAA000D1F7B /* Assets.xcassets */; };
+		18D2EAF42C3BBFAA000D1F7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2EAF32C3BBFAA000D1F7B /* Preview Assets.xcassets */; };
+		18D2EAFE2C3BC097000D1F7B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EAFD2C3BC097000D1F7B /* MainViewModel.swift */; };
+		18D2EB002C3BC0AE000D1F7B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EAFF2C3BC0AE000D1F7B /* CustomButton.swift */; };
+		18D2EB022C3BC0C6000D1F7B /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EB012C3BC0C6000D1F7B /* ResultView.swift */; };
+		18D2EB042C3BC0DB000D1F7B /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EB032C3BC0DB000D1F7B /* ButtonsView.swift */; };
+		18D2EB062C3BC0F4000D1F7B /* CountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EB052C3BC0F4000D1F7B /* CountsView.swift */; };
+		18EFDC6C2C5CC708000B8829 /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFDC6B2C5CC708000B8829 /* SelectView.swift */; };
+		18EFDC7A2C5CD274000B8829 /* BaccaratView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFDC792C5CD274000B8829 /* BaccaratView.swift */; };
+		18EFDC7C2C5CD3F5000B8829 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFDC7B2C5CD3F5000B8829 /* GraphView.swift */; };
+		18EFDC7E2C5CD43C000B8829 /* BaButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFDC7D2C5CD43C000B8829 /* BaButtonsView.swift */; };
+		18F474732C6098C3008C19E6 /* CustomButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F474722C6098C3008C19E6 /* CustomButton2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D2EAE92C3BBFA8000D1F7B /* TakuCho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TakuCho.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D2EAEC2C3BBFA8000D1F7B /* TakuChoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakuChoApp.swift; sourceTree = "<group>"; };
+		18D2EAEE2C3BBFA8000D1F7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18D2EAF02C3BBFAA000D1F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D2EAF32C3BBFAA000D1F7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18D2EAFD2C3BC097000D1F7B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		18D2EAFF2C3BC0AE000D1F7B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		18D2EB012C3BC0C6000D1F7B /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		18D2EB032C3BC0DB000D1F7B /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		18D2EB052C3BC0F4000D1F7B /* CountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountsView.swift; sourceTree = "<group>"; };
+		18EFDC6B2C5CC708000B8829 /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		18EFDC792C5CD274000B8829 /* BaccaratView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratView.swift; sourceTree = "<group>"; };
+		18EFDC7B2C5CD3F5000B8829 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		18EFDC7D2C5CD43C000B8829 /* BaButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaButtonsView.swift; sourceTree = "<group>"; };
+		18F474722C6098C3008C19E6 /* CustomButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D2EAE62C3BBFA8000D1F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D2EAE02C3BBFA8000D1F7B = {
+			isa = PBXGroup;
+			children = (
+				18D2EAEB2C3BBFA8000D1F7B /* TakuCho */,
+				18D2EAEA2C3BBFA8000D1F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D2EAEA2C3BBFA8000D1F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D2EAE92C3BBFA8000D1F7B /* TakuCho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D2EAEB2C3BBFA8000D1F7B /* TakuCho */ = {
+			isa = PBXGroup;
+			children = (
+				18D2EAEC2C3BBFA8000D1F7B /* TakuChoApp.swift */,
+				18D2EAFA2C3BC041000D1F7B /* View */,
+				18D2EAFB2C3BC04C000D1F7B /* ViewModel */,
+				18D2EAFC2C3BC05F000D1F7B /* Layout */,
+				18D2EAF02C3BBFAA000D1F7B /* Assets.xcassets */,
+				18D2EAF22C3BBFAA000D1F7B /* Preview Content */,
+			);
+			path = "TakuCho";
+			sourceTree = "<group>";
+		};
+		18D2EAF22C3BBFAA000D1F7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18D2EAF32C3BBFAA000D1F7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18D2EAFA2C3BC041000D1F7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18D2EAEE2C3BBFA8000D1F7B /* ContentView.swift */,
+				18D2EB012C3BC0C6000D1F7B /* ResultView.swift */,
+				18D2EB032C3BC0DB000D1F7B /* ButtonsView.swift */,
+				18D2EB052C3BC0F4000D1F7B /* CountsView.swift */,
+				18EFDC6B2C5CC708000B8829 /* SelectView.swift */,
+				18EFDC792C5CD274000B8829 /* BaccaratView.swift */,
+				18EFDC7B2C5CD3F5000B8829 /* GraphView.swift */,
+				18EFDC7D2C5CD43C000B8829 /* BaButtonsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18D2EAFB2C3BC04C000D1F7B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18D2EAFD2C3BC097000D1F7B /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18D2EAFC2C3BC05F000D1F7B /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				18D2EAFF2C3BC0AE000D1F7B /* CustomButton.swift */,
+				18F474722C6098C3008C19E6 /* CustomButton2.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D2EAE82C3BBFA8000D1F7B /* TakuCho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D2EAF72C3BBFAA000D1F7B /* Build configuration list for PBXNativeTarget "TakuCho" */;
+			buildPhases = (
+				18D2EAE52C3BBFA8000D1F7B /* Sources */,
+				18D2EAE62C3BBFA8000D1F7B /* Frameworks */,
+				18D2EAE72C3BBFA8000D1F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TakuCho";
+			productName = "TakuCho";
+			productReference = 18D2EAE92C3BBFA8000D1F7B /* TakuCho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D2EAE12C3BBFA8000D1F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					18D2EAE82C3BBFA8000D1F7B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 18D2EAE42C3BBFA8000D1F7B /* Build configuration list for PBXProject "TakuCho" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D2EAE02C3BBFA8000D1F7B;
+			productRefGroup = 18D2EAEA2C3BBFA8000D1F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D2EAE82C3BBFA8000D1F7B /* TakuCho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D2EAE72C3BBFA8000D1F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2EAF42C3BBFAA000D1F7B /* Preview Assets.xcassets in Resources */,
+				18D2EAF12C3BBFAA000D1F7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D2EAE52C3BBFA8000D1F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2EB042C3BC0DB000D1F7B /* ButtonsView.swift in Sources */,
+				18D2EB062C3BC0F4000D1F7B /* CountsView.swift in Sources */,
+				18D2EB002C3BC0AE000D1F7B /* CustomButton.swift in Sources */,
+				18EFDC7E2C5CD43C000B8829 /* BaButtonsView.swift in Sources */,
+				18EFDC7C2C5CD3F5000B8829 /* GraphView.swift in Sources */,
+				18D2EAEF2C3BBFA8000D1F7B /* ContentView.swift in Sources */,
+				18F474732C6098C3008C19E6 /* CustomButton2.swift in Sources */,
+				18D2EB022C3BC0C6000D1F7B /* ResultView.swift in Sources */,
+				18D2EAED2C3BBFA8000D1F7B /* TakuChoApp.swift in Sources */,
+				18D2EAFE2C3BC097000D1F7B /* MainViewModel.swift in Sources */,
+				18EFDC6C2C5CC708000B8829 /* SelectView.swift in Sources */,
+				18EFDC7A2C5CD274000B8829 /* BaccaratView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18D2EAF52C3BBFAA000D1F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D2EAF62C3BBFAA000D1F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D2EAF82C3BBFAA000D1F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakuCho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "卓帳";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.TakuCho";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D2EAF92C3BBFAA000D1F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakuCho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "卓帳";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.TakuCho";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D2EAE42C3BBFA8000D1F7B /* Build configuration list for PBXProject "TakuCho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D2EAF52C3BBFAA000D1F7B /* Debug */,
+				18D2EAF62C3BBFAA000D1F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D2EAF72C3BBFAA000D1F7B /* Build configuration list for PBXNativeTarget "TakuCho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D2EAF82C3BBFAA000D1F7B /* Debug */,
+				18D2EAF92C3BBFAA000D1F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D2EAE12C3BBFA8000D1F7B /* Project object */;
+}

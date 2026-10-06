@@ -1,0 +1,33 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# User-specific
+*.swp
+*.lock
+.DS_Store
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM
+/.build/
+.Package.resolved
+
+# CocoaPods（使っていれば）
+/Pods/
+# Carthage（使っていれば）
+/Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Firebase/Secretsなど（鍵は入れない）
+GoogleService-Info.plist
+Secrets/*.plist
